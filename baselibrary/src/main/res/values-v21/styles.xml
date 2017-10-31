@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WDYAppTheme" parent="BaseAppTheme">
+        <!--透明状态栏 影响dialog与键盘冲突-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--&lt;!&ndash;状态栏颜色&ndash;&gt;-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--&lt;!&ndash; 底部bar颜色 &ndash;&gt;-->
+        <!--<item name="android:navigationBarColor">#ffffff</item>-->
+        <!--&lt;!&ndash;是否隐藏底部返回栏&ndash;&gt;-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    </style>
+
+
+    <style name="myToolbar" parent="myToolbar">
+        <item name="elevation">0dp</item>
+    </style>
+
+
+    <style name="fitStyles">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:translationZ">0dp</item>
+    </style>
+
+
+</resources>
